@@ -260,8 +260,18 @@ p {
         border-radius: 25px 0 25px 0;
     }
 
+    .photos {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #A6E3E9;
+        justify-content: space-around;
+        padding: 50px 50px;
+       
+    
+    }
+
     .photo {
-        width: 45%;
+    
         height: auto;
         display: block;
         margin: 10px;

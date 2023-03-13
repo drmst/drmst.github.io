@@ -68,7 +68,7 @@ nav {
 }
 
 .works {
-    padding: 5% 100px  20px  100px;
+    padding: 5% 100px 20px 100px;
     background-color: #E3FDFD;
     font-size: 26px;
     display: flex;
@@ -97,7 +97,7 @@ p {
 }
 
 .profile {
-    
+
     margin-top: 8%;
     border-radius: 50%;
     height: 30vh;
@@ -186,7 +186,7 @@ p {
     background-color: #A6E3E9;
     justify-content: space-around;
     padding: 50px 200px;
-   
+
 
 }
 
@@ -227,7 +227,7 @@ p {
 
 .hedefler {
     font-size: 24px;
-    max-width:300px;
+    max-width: 300px;
 }
 
 .goal__svg {
@@ -266,12 +266,12 @@ p {
         background-color: #A6E3E9;
         justify-content: space-around;
         padding: 50px 50px;
-       
-    
+
+
     }
 
     .photo {
-    
+
         height: auto;
         display: block;
         margin: 10px;
@@ -294,4 +294,21 @@ p {
         justify-content: center;
         align-items: center;
     }
+
+    @media screen and (max-width:500px) {
+
+        .navigation {
+            display: none;
+    }
+
+    .works {
+        padding: 5% 20px 20px 20px;
+        background-color: #E3FDFD;
+        font-size: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
 }
